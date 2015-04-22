@@ -41,5 +41,24 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # testフレームワーク
+  gem 'rspec-rails', '~> 3.0'
+
+  # testデータ生成
+  gem 'factory_girl_rails', '~> 4.0'
+
+  # ベストプラクティスに従っているかどうかのチェック
+  gem 'rails_best_practices'
+
 end
 
+# rails
+gem 'slim', :require => 'slim-rails'
+gem 'slim-rails'
+
+# twitter bootstrap
+gem 'twitter-bootstrap3-rails'
+
+# ログイン関連を実現する為のgem
+gem 'devise'
