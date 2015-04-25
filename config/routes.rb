@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+
+  # get 'top/show'
+  # root 'pages#main'
+  root 'top#show'
+  post 'session/signup'
+  get 'session/signin'
+  get 'session/signout'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
